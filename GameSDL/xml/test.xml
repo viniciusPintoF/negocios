@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<STATES>
+  <MENU>   
+    
+    <TEXTURES>      
+      <texture filename="./assets/playButton.png" ID="playButton"/>
+      <texture filename="./assets/exitButton.png" ID="exitButton"/>        
+      <texture filename="./assets/cursor.png" ID="cursor"/>     
+    </TEXTURES>
+    
+    <OBJECTS>      
+      <object type="MenuButton" x="220" y="100" width="430" height="163" textureID="playButton" scale="0.5" flip="0" numFrames="1" callbackID="1" animSpeed="0"/>      
+      <object type="MenuButton" x="250" y="260" width="800" height="709" textureID="exitButton" scale="0.2" flip="0" numFrames="1" callbackID="2" animSpeed="0"/>      
+      <object type="Cursor" x="0" y="0" width="123" height="254" textureID="cursor" scale="0.2" flip="0" numFrames="1" callbackID="0" animSpeed="0"/>   
+    </OBJECTS>
+  
+  </MENU>
+
+  <PLAY>
+    
+    <TEXTURES>      
+      <texture filename="./assets/ceu.png" ID="ceu"/>
+      <texture filename="./assets/helicopter.png" ID="heli"/>        
+      <texture filename="./assets/tweet2.png" ID="tweet"/>     
+    </TEXTURES>
+
+    <OBJECTS>        
+      <object type="SDLGameObject" x="0" y="0" width="1000" height="480" textureID="ceu" scale="1" flip="0" numFrames="1" callbackID="0" animSpeed="0"/>      
+      <object type="Enemy" x="251" y="100" width="138" height="98" textureID="tweet" scale="1" flip="0" numFrames="4" callbackID="0" animSpeed="0"/>
+      <object type="Player" x="0" y="0" width="423" height="150" textureID="heli" scale="0.4" flip="0" numFrames="6" callbackID="0" animSpeed="0" />   
+    </OBJECTS>  
+    
+  </PLAY>
+
+  <PAUSE>
+    
+    <TEXTURES>      
+      <texture filename="./assets/mainMenuButton.png" ID="menuButton"/>
+      <texture filename="./assets/resumeButton.png" ID="resumeButton"/>        
+      <texture filename="./assets/cursor.png" ID="cursor"/>      
+    </TEXTURES>
+
+    <OBJECTS>        
+      <object type="MenuButton" x="220" y="100" width="430" height="163" textureID="menuButton" scale="0.5" flip="0" numFrames="1" callbackID="1" animSpeed="0"/>      
+      <object type="MenuButton" x="220" y="260" width="430" height="163" textureID="resumeButton" scale="0.5" flip="0" numFrames="1" callbackID="2" animSpeed="0"/>      
+      <object type="Cursor" x="0" y="0" width="123" height="254" textureID="cursor" scale="0.2" flip="0" numFrames="1" callbackID="0" animSpeed="0"/>       
+    </OBJECTS> 
+  
+  </PAUSE>
+
+  <GAMEOVER>
+
+    <TEXTURES>     
+      <texture filename="./assets/mainMenuButton.png" ID="menuButton"/>
+      <texture filename="./assets/retryButton.png" ID="retryButton"/>
+      <texture filename="./assets/gameOver.png" ID="gameOver"/>
+      <texture filename="./assets/cursor.png" ID="cursor"/>
+    </TEXTURES>
+
+    <OBJECTS>
+      <object type="AnimatedGraphic" x="150" y="50" width="400" height="163" textureID="gameOver" scale="0.8" flip="0" numFrames="2" callbackID="0" animSpeed="4"/>
+      <object type="MenuButton" x="200" y="200" width="430" height="163" textureID="menuButton" scale="0.5" flip="0" numFrames="1" callbackID="1" animSpeed="0"/>      
+      <object type="MenuButton" x="200" y="300" width="430" height="163" textureID="retryButton" scale="0.5" flip="0" numFrames="1" callbackID="2" animSpeed="0"/>      
+      <object type="Cursor" x="0" y="0" width="123" height="254" textureID="cursor" scale="0.2" flip="0" numFrames="1" callbackID="0" animSpeed="0"/>  
+    </OBJECTS> 
+  
+  </GAMEOVER>
+</STATES>
