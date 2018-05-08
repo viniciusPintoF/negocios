@@ -1,4 +1,4 @@
-#include "..\include\AnimatedGraphic.h"
+#include "../include/AnimatedGraphic.h"
 
 
 

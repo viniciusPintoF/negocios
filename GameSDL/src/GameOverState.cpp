@@ -1,4 +1,4 @@
-#include "..\include\GameOverState.h"
+#include "../include/GameOverState.h"
 
 #include "../include/Game.h"
 #include "../include/MainMenuState.h"

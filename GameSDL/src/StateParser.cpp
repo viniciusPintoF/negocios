@@ -1,4 +1,4 @@
-#include "..\include\StateParser.h"
+#include "../include/StateParser.h"
 
 #include "../include/Game.h"
 #include "../include/GameObjectFactory.h"

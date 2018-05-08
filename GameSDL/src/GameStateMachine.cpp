@@ -1,4 +1,4 @@
-#include "..\include\GameStateMachine.h"
+#include "../include/GameStateMachine.h"
 
 #include "../include/ErrorHandler.h"
 

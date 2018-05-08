@@ -1,4 +1,4 @@
-#include "..\include\GameObjectFactory.h"
+#include "../include/GameObjectFactory.h"
 
 #include "../include/ErrorHandler.h"
 
